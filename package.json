@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/lacker/mostgres/issues"
   },
-  "homepage": "https://github.com/lacker/mostgres#readme"
+  "homepage": "https://github.com/lacker/mostgres#readme",
+  "dependencies": {
+    "pg": "^6.1.0"
+  }
 }
