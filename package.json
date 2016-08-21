@@ -1,0 +1,26 @@
+{
+  "name": "mostgres",
+  "version": "0.0.1",
+  "description": "Use the MongoDB API to access a Postgres database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacker/mostgres.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "postgres",
+    "sql",
+    "postgresql"
+  ],
+  "author": "Kevin Lacker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lacker/mostgres/issues"
+  },
+  "homepage": "https://github.com/lacker/mostgres#readme"
+}
