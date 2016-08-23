@@ -20,7 +20,13 @@ class Db {
           return;
         }
 
-        // We did get a client. TODO: continue from here
+        operation(client).then((result) => {
+          done();
+          resolve(result);
+        }).catch((err) => {
+          done();
+          reject(err);
+        })
       });
     });
   }
